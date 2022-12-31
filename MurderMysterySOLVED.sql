@@ -47,11 +47,6 @@ SELECT *
 FROM person
 WHERE license_id = 423327 OR license_id = 664760; 
 
-/* "CHECK YOUR SOLUTION" */
-INSERT INTO solution VALUES (1, 'Jeremy Bowers');
-        
-        SELECT value FROM solution;
-
 /*Congrats, you found the murderer! 
 But wait, there's more... 
 If you think you're up for a challenge, try querying the interview transcript of the murderer to find the real villain behind this crime. 
